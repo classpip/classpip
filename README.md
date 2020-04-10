@@ -8,13 +8,13 @@
 
 
 
-## ¿Qué es ClassPip?
+## ¿Qué es Classpip?
 
 Classpip es una herramienta para introducir gamificación en el aula. La gamificación consiste en la introducción de las mecánicas típicas de los juegos en escenarios que no son juegos, para motivar a las personas a hacer cosas que quizá no tienen muchas ganas de hacer.
 
 Con Classpip, un profesor puede introducir diferentes mecánicas de juego. Por ejemplo:
 
-* *Juegos de puntos*: el profesor asignará puntos a sus alumnos en función de sus métodos (puntualidad, buenas calificaciones, ayudar a los compañeros, etc.). Los alumnos acumulan puntos, mejoran en el ranking y obtienen privilegios según el nivel de puntuación obtenido (poder oír música durante los exámenes, llevarse a casa el fin de semana la maleta de cosas interesantes de la profesora, etc.).
+* *Juegos de puntos*: el profesor asignará puntos a sus alumnos en función de sus méritos (puntualidad, buenas calificaciones, ayudar a los compañeros, etc.). Los alumnos acumulan puntos, mejoran en el ranking y obtienen privilegios según el nivel de puntuación obtenido (poder oír música durante los exámenes, llevarse a casa el fin de semana la maleta de cosas interesantes de la profesora, etc.).
    
 * *Juegos de colección*: el profesor asigna cromos de una colección a sus alumnos, en función de sus méritos. Los alumnos tratan de completar la colección y pueden intercambiar cromos entre ellos. Los cromos pueden ser de temática relacionada con la asignatura (los filósofos de la humanidad) y contener alguna información relevante (la obra más importante de cada filósofo). 
  
@@ -24,30 +24,32 @@ Cualquiera de estos juegos pueden jugarse de manera individual o en equipo (si e
  
 Classpip es un proyecto colaborativo que se desarrolla a partir de las contribuciones de alumnos que realizan sus trabajos de final de grado o master incorporando nuevas funcionalidades.
  
-ClassPip utiliza las tecnologías más modernas para el desarrollo de aplicaciones web y apps para dispositivos móviles, tales como: angular, ionic, cordova, strongloop, loopback. También usa Git y GitHub para gestión de versiones y colaboración entre los alumnos participantes. 
+Classpip utiliza las tecnologías más modernas para el desarrollo de aplicaciones web y apps para dispositivos móviles, tales como: angular, ionic, cordova, strongloop, loopback. También usa Git y GitHub para gestión de versiones y colaboración entre los alumnos participantes. 
  
-## Los módulos de ClassPip
+## Los módulos de Classpip
 
 En la actualidad Classpip tiene 4 módulos:
  
 * *Dashboard*: Es la aplicación web con la que, desde su ordenador, el profesor puede tomar todas las decisiones sobre configuración de los juegos (por ejemplo, crear una colección nueva) e interacción con cada juego (por ejemplo, asignar puntos a los alumnos).
  [![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/rocmeseguer/classpip-dashboard)
 
-* *Mobile-profe*: Es la app mediante la cual el profesor puede hacer desde el móvil algunas de las funciones del Dashboard (por ejemplo, asignar cromos a alumnos concretos o consultar el ranking del juego de puntos).
+* *Mobile-profe*: Es la app mediante la cual el profesor puede hacer algunas funciones que resulta apropiado hacer desde un dispositivo móvil (por ejemplo, asignar cromos a alumnos concretos o consultar el ranking del juego de puntos).
  [![Classpip Badge](https://img.shields.io/badge/classpip-mobile-brightgreen.svg)](https://github.com/rocmeseguer/classpip-mobile-profe)
 
-* *Mobile-estudent*: Es la app mediante la cual el alumno interacciona con el juego (por ejemplo, consulta los puntos que tiene, intercambia cromos con los compañeros o responde a las preguntas de un juego de preguntas). 
+* *Mobile-student*: Es la app mediante la cual el alumno interacciona con el juego (por ejemplo, consulta los puntos que tiene, intercambia cromos con los compañeros o responde a las preguntas de un juego de preguntas). 
  [![Classpip Badge](https://img.shields.io/badge/classpip-mobile-brightgreen.svg)](https://github.com/rocmeseguer/classpip-mobile-student)
   
 * *Services*: Es la aplicación que ofrece al resto de módulos los servicios de acceso a datos en modo API-REST  (por ejemplo, obtener la lista de juegos de un grupo, o los cromos que tiene un alumno en su álbum).
  [![Classpip Badge](https://img.shields.io/badge/classpip-services-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
  
- Un TFG concreto típicamente implica modificaciones en los 4 módulos: se define un nuevo tipo de juego (o mejoras en los existentes), se crean los nuevos modelos de datos que se incorporan al modulo de servicios, se añaden las funcionalidades propias del profesor en el Dashboard y en el Mobile-profe y se añaden las funcionalidades específicas para los alumnos en el Mobile-alumno.
+ Un TFG concreto típicamente implica modificaciones en los 4 módulos: se define un nuevo tipo de juego (o mejoras en los existentes), se crean los nuevos modelos de datos que se incorporan al modulo de servicios, se añaden las funcionalidades propias del profesor en el Dashboard y en el Mobile-profe y se añaden las funcionalidades específicas para los alumnos en el Mobile-student.
 
 ## Versiones de los módulos
 Cada uno de los módulos tiene versiones en producción (perfectamente funcionales) y versiones en desarrollo. 
-Cada año se generan dos versiones en producción que denominamos X.1.p y X.2.p (siendo X el año). Por ejemplo, la versión 2021.1.p estará lista en febrero de 2021 y se habrá construido a partir de las contribuciones de los alumnos que hayan hecho su TFG durante el curso académico 2020-2021 Q1 (se matricularon en septiembre de 2020 y acabaron el TFG en enero de 2021). La versión 2021.2.p estará lista en septiembre de 2021 y se habrá construido a partir de las contribuciones de los alumnos que hayan hecho su TFG durante el curso académico 2020-2021 Q2 (se matricularon en febrero de 2021 y acabaron el proyecto en septiembre de ese mismo año).
-Cada año hay también dos versiones en desarrollo. Cuando se crea la versión en producción X.1.p (en enero) se crea también la versión en desarrollo X.2.d, que inicialmente es una copia de X.1.p. En esa versión van a ir integrando sus contribuciones los alumnos que hacen su TFG durante el cuatrimestre de primavera (entre febrero y septiembre). Todas esas contribuciones darán lugar, en septiembre, a la versión X.2.p. En ese momento se pondrá en marcha la versión (X+1).1.d.
+ 
+Cada año se generan dos versiones en producción que denotaremos por A.M  (siendo A el año y M el mes). Por ejemplo, la versión 2021.2 estará lista en febrero de 2021 y se habrá construido a partir de las contribuciones de los alumnos que hayan hecho su TFG durante el curso académico 2020-2021 Q1 (se matricularon en septiembre de 2020 y acabaron el TFG en enero de 2021). La versión 2021.9 estará lista en septiembre de 2021 y se habrá construido a partir de las contribuciones de los alumnos que hayan hecho su TFG durante el curso académico 2020-2021 Q2 (se matricularon en febrero de 2021 y acabaron el proyecto en septiembre de ese mismo año). 
+ 
+En todo momento, cada módulo tiene también una versión en desarrollo. En esa versión van integrando sus contribuciones los alumnos que están trabajando en ese momento con el módulo. Cuando acaba el cuatrimestre en curso (en enero o en septiembre), la versión de desarrollo ya contiene todas las contribuciones y pasa a convertirse en la nueva versión en producción. La versión en desarrollo sigue activa para que el grupo de alumnos del nuevo cuatrimestre vaya integrando en ella sus contribuciones. Los enlaces que aparecen en esta página corresponden a las versiones en desarrollo de cada uno de los módulos.
 
  ## Documentos de cada versión en producción
 Cada versión en producción de cada módulo tiene asociados los documentos siguientes:
@@ -55,27 +57,34 @@ Cada versión en producción de cada módulo tiene asociados los documentos sigu
 *	El juego de pruebas que permite verificar que esa versión de módulo funciona correctamente
 *	Criterios de calidad y consignas de trabajo para el módulo
 *	Las funcionalidades implementadas en esa versión del módulo
-*	Planes para la versión en desarrollo en curso. Esta versión en desarrollo se creó cuando se generó la última versión en producción. Los planes darán lugar a la nueva versión en producción del módulo.
+*	Los desarrollos en curso que darán lugar a la nueva versión en producción del módulo.
 *	Ideas para desarrollos futuros del módulo
 
 ## Contribuyentes
-Al desarrollo de los módulos de Classpip contribuyen alumnos haciendo sus TFG. En el momento de la matrícula del TFG (primeros de febrero y primeros de septiembre) ya han terminado los TFG del cuatrimestre anterior y ya se sabe en qué situación está cada uno de los módulos. Por tanto, en el momento de la matricula ya debe haber quedado claro qué alumnos van a contribuir durante el cuatrimestre que se inicia y qué va a hacer cada uno de ellos. En ese momento se elabora el documento de planes para la versión en desarrollo.
-No obstante, los alumnos empiezan a interesarse por el proyecto con antelación (a veces incluso con meses de antelación). En el caso de alumnos de telemática, con conocimiento previo de las herramientas que se usan (será así porque han hecho EA), se les propone como tarea preparatoria instalarse los módulos y pasarles la batería de pruebas identificando las mejoras sencillas que creen que podrían introducirse (pueden incluirse algunas de las identificadas en el documento de desarrollos futuros). Entonces se consensua una lista de mejoras sencillas que los alumnos llevan a cabo sobre la versión en desarrollo en curso, practicando toda la mecánica de contribución a través de GitHub. Naturalmente, la contribución principal de cada alumno (en la que se centrará su TFG) se realizará sobre la versión en desarrollo siguiente (después de la matrícula del TFG).
-Para el resto de alumnos, las tareas iniciales deben consistir en hacer los tutoriales. En función del tipo de proyecto que se haya previsto, se hará más énfasis en uno u otro bloque del tutorial. Además de hacer los tutoriales, las tareas iniciales incluyen la realización de un ejercicio sencillo para consolidar el aprendizaje del contenido de los tutoriales.
+Al desarrollo de los módulos de Classpip contribuyen alumnos haciendo sus TFG. En el momento de la matrícula del TFG (primeros de febrero y primeros de septiembre) ya han terminado los TFG del cuatrimestre anterior y ya se sabe en qué situación está cada uno de los módulos. Por tanto, en el momento de la matricula ya debe haber quedado claro qué alumnos van a contribuir durante el cuatrimestre que se inicia y qué va a hacer cada uno de ellos. En ese momento se elabora el documento de desarrollos en curso.
+ 
+No obstante, los alumnos empiezan a interesarse por el proyecto con antelación (a veces incluso con meses de antelación). En el caso de alumnos de telemática, con conocimiento previo de las herramientas que se usan (será así porque han hecho EA), se les propone como tarea preparatoria instalarse los módulos y pasarles la batería de pruebas identificando las mejoras sencillas que creen que podrían introducirse (pueden incluirse algunas de las identificadas en el documento de desarrollos futuros). Entonces se consensua una lista de mejoras sencillas que los alumnos llevan a cabo sobre la versión en desarrollo, practicando toda la mecánica de contribución a través de GitHub.
+ 
+Para el resto de alumnos, las tareas iniciales deben consistir en hacer los [tutoriales de las herramientas de Classpip](https://www.youtube.com/watch?v=CUhVn7U0rh4&list=PL64O0POFYjHqXWZgAtku2zgG-wEFxJ3xM). En función del tipo de proyecto que se haya previsto, se hará más énfasis en uno u otro bloque del tutorial. Además de hacer los tutoriales, las tareas iniciales incluyen la realización de un ejercicio sencillo para consolidar el aprendizaje del contenido de los tutoriales.
 
 ## Contribuciones
-Al inicio de su trabajo, cada contribuyente se hará en su GitHub personal un fork de la versión en desarrollo sobre la que trabajará. De acuerdo con el profesor supervisor, irá haciendo pull requests contra la versión en desarrollo. Después de cada pull request deberá pasar la batería de pruebas para asegurar el correcto funcionamiento (normalmente, el propio contribuyente habrá ampliado la batería de pruebas del módulo con aquellas necesarias para probar su contribución).
+Al inicio de su trabajo, cada contribuyente se hará en su GitHub personal un fork de la versión en desarrollo de los módulos en los que trabajará. De acuerdo con el profesor supervisor, irá haciendo pull requests contra la versión en desarrollo. Después de cada pull request deberá pasar la batería de pruebas para asegurar el correcto funcionamiento (normalmente, el propio contribuyente habrá ampliado la batería de pruebas del módulo con aquellas necesarias para probar su contribución).
+ 
 Al finalizar su TFG debe entregar (además de la memoria):
 *	La nueva versión de la batería de pruebas de los módulos que haya tocado.
 *	Un texto descriptivo de las cosas añadidas a los módulos que haya tocado (que se incorporará al documento de funcionalidades implementadas)
 *	Cosas pendientes de hacer en los módulos que se hayan tocado (que se incorporarán al documento de ideas para desarrollos futuros)
+ 
 Estos elementos se presentarán en forma de anexos a la memoria del TFG.
-* CONTROL DE LA CALIDAD DEL CÓDIGO (DISCUTIR ESTO)
+
+CONTROL DE LA CALIDAD DEL CÓDIGO (DISCUTIR ESTO)
+ 
 Una vez finalizadas e integradas todas las contribuciones de un cuatrimestre, los profesores responsables pasarán la batería de pruebas completa a la versión en desarrollo y, una vez superadas, convertirán la versión en desarrollo en nueva versión en producción. Los contribuyentes que han acabado su TFG deben comprometerse a ayudar a los profesores responsables a resolver los errores que puedan aparecer al pasar la batería de pruebas final.
 
 ## Instalación y mecánica para las contribuciones
 
 La página principal de cada repositorio indica qué herramientas (y qué versión de cada herramienta) hay que tener instaladas y también se dan instrucciones para la instalación y puesta en marcha del módulo.
+ 
 El ciclo de contribución que hay que seguir es este:
 
 1. El alumno hace en su GitHub personal un fork del repositorio que contiene la versión de desarrollo en curso.
