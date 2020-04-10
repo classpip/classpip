@@ -31,19 +31,16 @@ ClassPip utiliza las tecnologías más modernas para el desarrollo de aplicacion
 En la actualidad Classpip tiene 4 módulos:
  
 * *Dashboard*: Es la aplicación web con la que, desde su ordenador, el profesor puede tomar todas las decisiones sobre configuración de los juegos (por ejemplo, crear una colección nueva) e interacción con cada juego (por ejemplo, asignar puntos a los alumnos).
- 
  [![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/rocmeseguer/classpip-dashboard)
 
-Mobile-profe: Es la app mediante la cual el profesor puede hacer desde el móvil algunas de las funciones del Dashboard (por ejemplo, asignar cromos a alumnos concretos o consultar el ranking del juego de puntos).
+* *Mobile-profe*: Es la app mediante la cual el profesor puede hacer desde el móvil algunas de las funciones del Dashboard (por ejemplo, asignar cromos a alumnos concretos o consultar el ranking del juego de puntos).
  [![Classpip Badge](https://img.shields.io/badge/classpip-mobile-brightgreen.svg)](https://github.com/rocmeseguer/classpip-mobile-profe)
 
 * *Mobile-estudent*: Es la app mediante la cual el alumno interacciona con el juego (por ejemplo, consulta los puntos que tiene, intercambia cromos con los compañeros o responde a las preguntas de un juego de preguntas). 
- 
  [![Classpip Badge](https://img.shields.io/badge/classpip-mobile-brightgreen.svg)](https://github.com/rocmeseguer/classpip-mobile-student)
   
 * *Services*: Es la aplicación que ofrece al resto de módulos los servicios de acceso a datos en modo API-REST  (por ejemplo, obtener la lista de juegos de un grupo, o los cromos que tiene un alumno en su álbum).
- 
-[![Classpip Badge](https://img.shields.io/badge/classpip-services-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
+ [![Classpip Badge](https://img.shields.io/badge/classpip-services-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
  
  Un TFG concreto típicamente implica modificaciones en los 4 módulos: se define un nuevo tipo de juego (o mejoras en los existentes), se crean los nuevos modelos de datos que se incorporan al modulo de servicios, se añaden las funcionalidades propias del profesor en el Dashboard y en el Mobile-profe y se añaden las funcionalidades específicas para los alumnos en el Mobile-alumno.
 
