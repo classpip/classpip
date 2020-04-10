@@ -14,11 +14,11 @@ Classpip es una herramienta para introducir gamificación en el aula. La gamific
 
 Con Classpip, un profesor puede introducir diferentes mecánicas de juego. Por ejemplo:
 
-Juegos de puntos: el profesor asignará puntos a sus alumnos en función de sus métodos (puntualidad, buenas calificaciones, ayudar a los compañeros, etc.). Los alumnos acumulan puntos, mejoran en el ranking y obtienen privilegios según el nivel de puntuación obtenido (poder oír música durante los exámenes, llevarse a casa el fin de semana la maleta de cosas interesantes de la profesora, etc.).
+* *Juegos de puntos*: el profesor asignará puntos a sus alumnos en función de sus métodos (puntualidad, buenas calificaciones, ayudar a los compañeros, etc.). Los alumnos acumulan puntos, mejoran en el ranking y obtienen privilegios según el nivel de puntuación obtenido (poder oír música durante los exámenes, llevarse a casa el fin de semana la maleta de cosas interesantes de la profesora, etc.).
    
-Juegos de colección: el profesor asigna cromos de una colección a sus alumnos, en función de sus méritos. Los alumnos tratan de completar la colección y pueden intercambiar cromos entre ellos. Los cromos pueden ser de temática relacionada con la asignatura (los filósofos de la humanidad) y contener alguna información relevante (la obra más importante de cada filósofo). 
+* *Juegos de colección*: el profesor asigna cromos de una colección a sus alumnos, en función de sus méritos. Los alumnos tratan de completar la colección y pueden intercambiar cromos entre ellos. Los cromos pueden ser de temática relacionada con la asignatura (los filósofos de la humanidad) y contener alguna información relevante (la obra más importante de cada filósofo). 
  
-Juegos de preguntas: el profesor plantea un conjunto de preguntas de respuesta múltiple y cada alumno debe responderlas. Gana el juego el alumno que más preguntas contesta bien.
+* *Juegos de preguntas*: el profesor plantea un conjunto de preguntas de respuesta múltiple y cada alumno debe responderlas. Gana el juego el alumno que más preguntas contesta bien.
  
 Cualquiera de estos juegos pueden jugarse de manera individual o en equipo (si el profesor ha organizado antes a los alumnos en equipos). Todos los implicados (profesores y alumnos) interaccionan a través de web, o bien desde un ordenador (por ejemplo, el profesor creando una nueva colección de cromos) o desde un dispositivo móvil (por ejemplo, el profesor asignando puntos y los alumnos consultando el ranking o intercambiando cromos).
  
@@ -30,20 +30,22 @@ ClassPip utiliza las tecnologías más modernas para el desarrollo de aplicacion
 
 En la actualidad Classpip tiene 4 módulos:
  
-* Dashboard *: Es la aplicación web con la que, desde su ordenador, el profesor puede tomar todas las decisiones sobre configuración de los juegos (por ejemplo, crear una colección nueva) e interacción con cada juego (por ejemplo, asignar puntos a los alumnos).
+* *Dashboard*: Es la aplicación web con la que, desde su ordenador, el profesor puede tomar todas las decisiones sobre configuración de los juegos (por ejemplo, crear una colección nueva) e interacción con cada juego (por ejemplo, asignar puntos a los alumnos).
+ 
  [![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/rocmeseguer/classpip-dashboard)
 
 Mobile-profe: Es la app mediante la cual el profesor puede hacer desde el móvil algunas de las funciones del Dashboard (por ejemplo, asignar cromos a alumnos concretos o consultar el ranking del juego de puntos).
  [![Classpip Badge](https://img.shields.io/badge/classpip-mobile-brightgreen.svg)](https://github.com/rocmeseguer/classpip-mobile-profe)
 
-Mobile-estudent: Es la app mediante la cual el alumno interacciona con el juego (por ejemplo, consulta los puntos que tiene, intercambia cromos con los compañeros o responde a las preguntas de un juego de preguntas). 
+* *Mobile-estudent*: Es la app mediante la cual el alumno interacciona con el juego (por ejemplo, consulta los puntos que tiene, intercambia cromos con los compañeros o responde a las preguntas de un juego de preguntas). 
+ 
  [![Classpip Badge](https://img.shields.io/badge/classpip-mobile-brightgreen.svg)](https://github.com/rocmeseguer/classpip-mobile-student)
-Services: Es la aplicación que ofrece al resto de módulos los servicios de acceso a datos en modo API-REST  (por ejemplo, obtener la lista de juegos de un grupo, o los cromos que tiene un alumno en su álbum).
+  
+* *Services*: Es la aplicación que ofrece al resto de módulos los servicios de acceso a datos en modo API-REST  (por ejemplo, obtener la lista de juegos de un grupo, o los cromos que tiene un alumno en su álbum).
  
 [![Classpip Badge](https://img.shields.io/badge/classpip-services-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
-
  
-Un TFG concreto típicamente implica modificaciones en los 4 módulos: se define un nuevo tipo de juego (o mejoras en los existentes), se crean los nuevos modelos de datos que se incorporan al modulo de servicios, se añaden las funcionalidades propias del profesor en el Dashboard y en el Mobile-profe y se añaden las funcionalidades específicas para los alumnos en el Mobile-alumno.
+ Un TFG concreto típicamente implica modificaciones en los 4 módulos: se define un nuevo tipo de juego (o mejoras en los existentes), se crean los nuevos modelos de datos que se incorporan al modulo de servicios, se añaden las funcionalidades propias del profesor en el Dashboard y en el Mobile-profe y se añaden las funcionalidades específicas para los alumnos en el Mobile-alumno.
 
 ## Versiones de los módulos
 Cada uno de los módulos tiene versiones en producción (perfectamente funcionales) y versiones en desarrollo. 
@@ -71,7 +73,7 @@ Al finalizar su TFG debe entregar (además de la memoria):
 *	Un texto descriptivo de las cosas añadidas a los módulos que haya tocado (que se incorporará al documento de funcionalidades implementadas)
 *	Cosas pendientes de hacer en los módulos que se hayan tocado (que se incorporarán al documento de ideas para desarrollos futuros)
 Estos elementos se presentarán en forma de anexos a la memoria del TFG.
-CONTROL DE LA CALIDAD DEL CÓDIGO (DISCUTIR ESTO)
+* CONTROL DE LA CALIDAD DEL CÓDIGO (DISCUTIR ESTO)
 Una vez finalizadas e integradas todas las contribuciones de un cuatrimestre, los profesores responsables pasarán la batería de pruebas completa a la versión en desarrollo y, una vez superadas, convertirán la versión en desarrollo en nueva versión en producción. Los contribuyentes que han acabado su TFG deben comprometerse a ayudar a los profesores responsables a resolver los errores que puedan aparecer al pasar la batería de pruebas final.
 
 ## Instalación y mecánica para las contribuciones
@@ -83,7 +85,7 @@ El ciclo de contribución que hay que seguir es este:
  
 2. Se clona el modulo en local, desde su GitHub:
 ```
-git clone (URL del repositorio)
+   git clone (URL del repositorio)
 ```
  
 3. La operación anterior habrá creado un remoto que conecta el proyecto en local con el repositorio en el GitHub personal. Ese remoto se llama origin. Cambiaremos el nombre para que se llame mio.
@@ -116,7 +118,7 @@ git clone (URL del repositorio)
   git push mio dev
 ```
   
-En el repositorio del GitHub personal se habrá creado una rama dev con los cambios realizados
+   En el repositorio del GitHub personal se habrá creado una rama dev con los cambios realizados
  
 8. Desde la rama dev del repositorio GitHub personal hacer un pull request para integrar los cambios realizados en la versión en desarrollo en curso. Describir claramente los desarrollos realizados. Al hacer el pull request se indicará si hay conflictos o no. Si no hay conflictos el mismo alumno puede aceptar el pull request (todos tendrán permiso para hacerlo). Si hay conflicto entonces el autor del pull request debe intentar resolver los conflictos y contectar con alguno de los profesores responsables si tiene dificultades para hacerlo.
  
@@ -126,12 +128,12 @@ En el repositorio del GitHub personal se habrá creado una rama dev con los camb
   git pull origin master
 ```
  
-Es posible que al descargar la nueva versión el compilador eche en falta algún paquete que ahora sea necesario como consecuencia de los cambios introducidos por algún otro contribuyente. En ese caso se producirá un fallo de compilación y habrá que hacer de nuevo la instalación de todas las dependencias locales:
+   Es posible que al descargar la nueva versión el compilador eche en falta algún paquete que ahora sea necesario como consecuencia de los cambios introducidos por algún otro contribuyente. En ese caso se producirá un fallo de compilación y habrá que hacer de nuevo la instalación de todas las dependencias locales:
  ```
    npm install
  ```
 
-Ahora es necesario pasar todas las pruebas del módulo para verificar que funciona correctamente. Si hubiese que hacer alguna modificación para resolver errores, se procedería tal y como se ha indicado a partir del paso 5.
+   Ahora es necesario pasar todas las pruebas del módulo para verificar que funciona correctamente. Si hubiese que hacer alguna modificación para resolver errores, se procedería tal y como se ha indicado a partir del paso 5.
  
 11. Una vez verificado que el módulo funciona correctamente, hay que enviar el código al repositorio del GitHub personal:
  ```
