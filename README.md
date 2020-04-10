@@ -30,7 +30,7 @@ ClassPip utiliza las tecnologías más modernas para el desarrollo de aplicacion
 
 En la actualidad Classpip tiene 4 módulos:
  
-Dashboard: Es la aplicación web con la que, desde su ordenador, el profesor puede tomar todas las decisiones sobre configuración de los juegos (por ejemplo, crear una colección nueva) e interacción con cada juego (por ejemplo, asignar puntos a los alumnos).
+* Dashboard *: Es la aplicación web con la que, desde su ordenador, el profesor puede tomar todas las decisiones sobre configuración de los juegos (por ejemplo, crear una colección nueva) e interacción con cada juego (por ejemplo, asignar puntos a los alumnos).
  [![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/rocmeseguer/classpip-dashboard)
 
 Mobile-profe: Es la app mediante la cual el profesor puede hacer desde el móvil algunas de las funciones del Dashboard (por ejemplo, asignar cromos a alumnos concretos o consultar el ranking del juego de puntos).
@@ -52,12 +52,12 @@ Cada año hay también dos versiones en desarrollo. Cuando se crea la versión e
 
  ## Documentos de cada versión en producción
 Cada versión en producción de cada módulo tiene asociados los documentos siguientes:
-•	El código (con instrucciones para su instalación)
-•	El juego de pruebas que permite verificar que esa versión de módulo funciona correctamente
-•	Criterios de calidad y consignas de trabajo para el módulo
-•	Las funcionalidades implementadas en esa versión del módulo
-•	Planes para la versión en desarrollo en curso. Esta versión en desarrollo se creó cuando se generó la última versión en producción. Los planes darán lugar a la nueva versión en producción del módulo.
-•	Ideas para desarrollos futuros del módulo
+*	El código (con instrucciones para su instalación)
+*	El juego de pruebas que permite verificar que esa versión de módulo funciona correctamente
+*	Criterios de calidad y consignas de trabajo para el módulo
+*	Las funcionalidades implementadas en esa versión del módulo
+*	Planes para la versión en desarrollo en curso. Esta versión en desarrollo se creó cuando se generó la última versión en producción. Los planes darán lugar a la nueva versión en producción del módulo.
+*	Ideas para desarrollos futuros del módulo
 
 ## Contribuyentes
 Al desarrollo de los módulos de Classpip contribuyen alumnos haciendo sus TFG. En el momento de la matrícula del TFG (primeros de febrero y primeros de septiembre) ya han terminado los TFG del cuatrimestre anterior y ya se sabe en qué situación está cada uno de los módulos. Por tanto, en el momento de la matricula ya debe haber quedado claro qué alumnos van a contribuir durante el cuatrimestre que se inicia y qué va a hacer cada uno de ellos. En ese momento se elabora el documento de planes para la versión en desarrollo.
@@ -67,9 +67,9 @@ Para el resto de alumnos, las tareas iniciales deben consistir en hacer los tuto
 ## Contribuciones
 Al inicio de su trabajo, cada contribuyente se hará en su GitHub personal un fork de la versión en desarrollo sobre la que trabajará. De acuerdo con el profesor supervisor, irá haciendo pull requests contra la versión en desarrollo. Después de cada pull request deberá pasar la batería de pruebas para asegurar el correcto funcionamiento (normalmente, el propio contribuyente habrá ampliado la batería de pruebas del módulo con aquellas necesarias para probar su contribución).
 Al finalizar su TFG debe entregar (además de la memoria):
-•	La nueva versión de la batería de pruebas de los módulos que haya tocado.
-•	Un texto descriptivo de las cosas añadidas a los módulos que haya tocado (que se incorporará al documento de funcionalidades implementadas)
-•	Cosas pendientes de hacer en los módulos que se hayan tocado (que se incorporarán al documento de ideas para desarrollos futuros)
+*	La nueva versión de la batería de pruebas de los módulos que haya tocado.
+*	Un texto descriptivo de las cosas añadidas a los módulos que haya tocado (que se incorporará al documento de funcionalidades implementadas)
+*	Cosas pendientes de hacer en los módulos que se hayan tocado (que se incorporarán al documento de ideas para desarrollos futuros)
 Estos elementos se presentarán en forma de anexos a la memoria del TFG.
 CONTROL DE LA CALIDAD DEL CÓDIGO (DISCUTIR ESTO)
 Una vez finalizadas e integradas todas las contribuciones de un cuatrimestre, los profesores responsables pasarán la batería de pruebas completa a la versión en desarrollo y, una vez superadas, convertirán la versión en desarrollo en nueva versión en producción. Los contribuyentes que han acabado su TFG deben comprometerse a ayudar a los profesores responsables a resolver los errores que puedan aparecer al pasar la batería de pruebas final.
@@ -82,53 +82,68 @@ El ciclo de contribución que hay que seguir es este:
 1. El alumno hace en su GitHub personal un fork del repositorio que contiene la versión de desarrollo en curso.
  
 2. Se clona el modulo en local, desde su GitHub:
- 
-  git clone (URL del repositorio)
+```
+git clone (URL del repositorio)
+```
  
 3. La operación anterior habrá creado un remoto que conecta el proyecto en local con el repositorio en el GitHub personal. Ese remoto se llama origin. Cambiaremos el nombre para que se llame mio.
- 
+```
   git remote remane origin mio
+```
+ 
  
 4. Creamos un remoto llamado origin que conecte el proyecto en local con el repositorio de la versión en desarrollo en curso:
  
+
+```
   git remote add origin (URL del repositorio)
+```
  
 5. Crea una rama dev en local para hacer allí los desarrollos:
- 
+```
   git checkout –b dev
+```
  
 6. Una vez hechos los cambios hacer un commit describiendolos brevemente.
-  
+```
   git add .
   git commit –m “Descripción de los desarrollos realizados”
+```
+
  
 7. Hace un push en el repositorio del GitHub personal, para que se reflejen los cambios allí.
- 
-git push mio dev
+```
+  git push mio dev
+```
   
 En el repositorio del GitHub personal se habrá creado una rama dev con los cambios realizados
  
 8. Desde la rama dev del repositorio GitHub personal hacer un pull request para integrar los cambios realizados en la versión en desarrollo en curso. Describir claramente los desarrollos realizados. Al hacer el pull request se indicará si hay conflictos o no. Si no hay conflictos el mismo alumno puede aceptar el pull request (todos tendrán permiso para hacerlo). Si hay conflicto entonces el autor del pull request debe intentar resolver los conflictos y contectar con alguno de los profesores responsables si tiene dificultades para hacerlo.
  
 9. Una vez resuelto el pull request, el alumno se trae la versión de desarrollo en curso, en la que se han integrado sus contribuciones con las de otros alumnos.
- 
+ ```
   git checkout master
   git pull origin master
+```
  
 Es posible que al descargar la nueva versión el compilador eche en falta algún paquete que ahora sea necesario como consecuencia de los cambios introducidos por algún otro contribuyente. En ese caso se producirá un fallo de compilación y habrá que hacer de nuevo la instalación de todas las dependencias locales:
- 
-npm install
- 
+ ```
+   npm install
+ ```
+
 Ahora es necesario pasar todas las pruebas del módulo para verificar que funciona correctamente. Si hubiese que hacer alguna modificación para resolver errores, se procedería tal y como se ha indicado a partir del paso 5.
  
 11. Una vez verificado que el módulo funciona correctamente, hay que enviar el código al repositorio del GitHub personal:
- 
-git push mio master
+ ```
+   git push mio master
+ ```
  
 12. Borra las ramas dev tanto de la copia local como la del repositorio del GitHub personal
- 
-git branch -d dev
-git push mio --delete dev
+ ```
+   git branch -d dev
+   git push mio --delete dev
+ ```
+
  
 En el momento que quiera hacer una nueva contribución, se repite el proceso desde el paso 5.
 
