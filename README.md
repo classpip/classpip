@@ -28,6 +28,8 @@ Classpip utiliza las tecnologías más modernas para el desarrollo de aplicacion
  
 ## Los módulos de Classpip
 
+![classpip-arch](https://github.com/classpip/classpip/raw/master/images/project-architecture.png)
+
 En la actualidad Classpip tiene 4 módulos:
  
 * *Dashboard*: Es la aplicación web con la que, desde su ordenador, el profesor puede tomar todas las decisiones sobre configuración de los juegos (por ejemplo, crear una colección nueva) e interacción con cada juego (por ejemplo, asignar puntos a los alumnos).
