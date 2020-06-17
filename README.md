@@ -3,6 +3,7 @@
 [![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/rocmeseguer/classpip-dashboard)
 [![Classpip Badge](https://img.shields.io/badge/classpip-mobile--profe-brightgreen)](https://github.com/rocmeseguer/classpip-mobile-profe)
 [![Classpip Badge](https://img.shields.io/badge/classpip-mobile--student-brightgreen)](https://github.com/rocmeseguer/classpip-mobile-student)
+[![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
 [![Classpip Badge](https://img.shields.io/badge/classpip-services-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
 [![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/classpip/classpip/blob/master/LICENSE)
 
@@ -30,7 +31,7 @@ Classpip utiliza las tecnologías más modernas para el desarrollo de aplicacion
 
 ![classpip-arch](https://github.com/classpip/classpip/raw/master/images/project-architecture.png)
 
-En la actualidad Classpip tiene 4 módulos:
+En la actualidad Classpip tiene 5 módulos:
  
 * *Dashboard*: Es la aplicación web con la que, desde su ordenador, el profesor puede tomar todas las decisiones sobre configuración de los juegos (por ejemplo, crear una colección nueva) e interacción con cada juego (por ejemplo, asignar puntos a los alumnos).
  [![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/rocmeseguer/classpip-dashboard)
@@ -44,7 +45,10 @@ En la actualidad Classpip tiene 4 módulos:
 * *Services*: Es la aplicación que ofrece al resto de módulos los servicios de acceso a datos en modo API-REST  (por ejemplo, obtener la lista de juegos de un grupo, o los cromos que tiene un alumno en su álbum).
  [![Classpip Badge](https://img.shields.io/badge/classpip-services-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
  
- Un TFG concreto típicamente implica modificaciones en los 4 módulos: se define un nuevo tipo de juego (o mejoras en los existentes), se crean los nuevos modelos de datos que se incorporan al modulo de servicios, se añaden las funcionalidades propias del profesor en el Dashboard y en el Mobile-profe y se añaden las funcionalidades específicas para los alumnos en el Mobile-student.
+ * *Server*: Es un servidor que realizar tareas de notificación entre los usuarios. Por ejemplo, recibe la notificación de que un alumno ha completado un cuestionario y remite esa notificación al Dash para que refleje esa circunstancia en el listado de alumnos que participan en el juego. También realiza tareas de registro de actividad (por ejemplo, registrar la creación de grupos o de juegos).
+ [![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
+ 
+ Un TFG concreto típicamente implica modificaciones en los 5 módulos: se define un nuevo tipo de juego (o mejoras en los existentes), se crean los nuevos modelos de datos que se incorporan al modulo de servicios, se añaden las funcionalidades propias del profesor en el Dashboard y en el Mobile-profe y se añaden las funcionalidades específicas para los alumnos en el Mobile-student. Si además conviene hacer un registro de actividad o gestionar alguna notificación, habra que modificar el modulo server.
 
 ## Versiones de los módulos
 Cada uno de los módulos tiene versiones en producción (perfectamente funcionales) y versiones en desarrollo. 
