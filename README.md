@@ -3,7 +3,7 @@
 [![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/rocmeseguer/classpip-dashboard)
 [![Classpip Badge](https://img.shields.io/badge/classpip-mobile--profe-brightgreen)](https://github.com/rocmeseguer/classpip-mobile-profe)
 [![Classpip Badge](https://img.shields.io/badge/classpip-mobile--student-brightgreen)](https://github.com/rocmeseguer/classpip-mobile-student)
-[![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
+[![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/rocmeseguer/classpip-server)
 [![Classpip Badge](https://img.shields.io/badge/classpip-services-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
 [![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/classpip/classpip/blob/master/LICENSE)
 
@@ -46,7 +46,7 @@ En la actualidad Classpip tiene 5 módulos:
  [![Classpip Badge](https://img.shields.io/badge/classpip-services-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
  
  * *Server*: Es un servidor que realizar tareas de notificación entre los usuarios. Por ejemplo, recibe la notificación de que un alumno ha completado un cuestionario y remite esa notificación al Dash para que refleje esa circunstancia en el listado de alumnos que participan en el juego. También realiza tareas de registro de actividad (por ejemplo, registrar la creación de grupos o de juegos).
- [![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
+ [![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/rocmeseguer/classpip-server)
  
  Un TFG concreto típicamente implica modificaciones en los 5 módulos: se define un nuevo tipo de juego (o mejoras en los existentes), se crean los nuevos modelos de datos que se incorporan al modulo de servicios, se añaden las funcionalidades propias del profesor en el Dashboard y en el Mobile-profe y se añaden las funcionalidades específicas para los alumnos en el Mobile-student. Si además conviene hacer un registro de actividad o gestionar alguna notificación, habra que modificar el modulo server.
 
