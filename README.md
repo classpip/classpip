@@ -77,7 +77,7 @@ Algunos materiales tutoriales que deben facilitar el inicio del trabajo en Class
 * [Tutoriales de las herramientas de Classpip](https://www.youtube.com/playlist?list=PL64O0POFYjHqXWZgAtku2zgG-wEFxJ3xM). Se trata de una colección de vídeos describiendo los aspectos esenciales de las diferentes tecnologías usadas en Classpip (Angular, Ionic, Loopback, Git, Github, etc.). En función del tipo de proyecto que se haya previsto, se hará más énfasis en uno u otro bloque del tutorial. 
 * [Tutorial sobre cómo hacer un juego para Classpip](https://github.com/classpip/classpip/blob/master/TutorialVotacion.pdf). Muestra los pásos básicos para crear un nuevo juego (creación de los nuevos modelos de datos, creación y gestión del juego desde el Dashboard y interacción con el juego desde el movil del estudiante).
  
- Esta es la [relación de todos los TFM y TFE que se han realizado hasta el momento en Classpip] (https://github.com/classpip/classpip/blob/master/Recopilacion.htm)
+ Esta es la [recopilacion de todos los TFM y TFE que se han realizado hasta el momento en Classpip](https://github.com/classpip/classpip/blob/master/Recopilacion.pdf)
 
 ## Contribuciones
 Al inicio de su trabajo, cada contribuyente se hará en su GitHub personal un fork de la versión en desarrollo de las aplicaciones en las que trabajará. De acuerdo con el profesor supervisor, irá haciendo pull requests contra la versión en desarrollo. Después de cada pull request deberá pasar la batería de pruebas para asegurar el correcto funcionamiento (normalmente, el propio contribuyente habrá ampliado la batería de pruebas de la aplicación con aquellas necesarias para probar su contribución).
