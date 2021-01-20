@@ -23,7 +23,7 @@ Con Classpip, un profesor puede introducir diferentes mecánicas de juego. Por e
  
 Cualquiera de estos juegos pueden jugarse de manera individual o en equipo (si el profesor ha organizado antes a los alumnos en equipos). Todos los implicados (profesores y alumnos) interaccionan a través de web, o bien desde un ordenador (por ejemplo, el profesor creando una nueva colección de cromos) o desde un dispositivo móvil (por ejemplo, el profesor asignando puntos y los alumnos consultando el ranking o intercambiando cromos).
  
-Aquí puede encontrarse un pequeño video demostrativo de algunas de las funcionalidades de Classpip.
+Aquí puede encontrarse un pequeño [video demostrativo de algunas de las funcionalidades de Classpip](https://www.youtube.com/watch?v=HI09jZGl8U0)
  
 Classpip es un proyecto colaborativo que se desarrolla a partir de las contribuciones de alumnos que realizan sus trabajos de final de grado o master incorporando nuevas funcionalidades.
  
