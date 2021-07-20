@@ -83,7 +83,64 @@ Algunos materiales tutoriales que deben facilitar el inicio del trabajo en Class
  Esta es la [recopilacion de todos los TFM y TFG que se han realizado hasta el momento en Classpip](https://htmlpreview.github.io/?https://github.com/classpip/classpip/blob/master/Recopilacion.htm)
 
 ## Instalación de las herramientas necesarias
+Para controbuir en el desarrollo de código del ecosistema Classpip es necesario instalar las herramientas que se indican a continuación.  
 
+### NodeJS
+Necesitas instalar NodeJS v10.13.0. Esta instalación incluye la instalación del gestor de paquetes npm.
+Para verificar que has instalado la versión correcta:
+```
+node -v
+> v10.13.0
+```
+## Git y GitHub
+
+Necesitas instalar estas herramientas para gestión de versiones y repositorio en la nube:
+ 
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+ 
+https://github.com/
+
+Además tienes que crear una cuenta en GitHub (si no la tienes aún) en la que harás el fork de las aplicacines, para poder hacer contribuciones.
+ 
+ 
+### Native addons en Linux (Ubuntu)
+
+```
+sudo apt-get install gcc g++ make
+```
+
+### Native addons en Windows
+Deben instalarse en con permiso de administrador
+```
+npm install -g windows-build-tools@5.1.0
+```
+
+### Cliente angular
+Instalar también con permisos de administrador
+```
+npm install -g @angular/cli@7.0.6
+```
+### Ionic y Cordova
+
+Necesitarás estas dos instalaciones (haz las instalaciones con permisos de administrador).
+
+```
+npm install -g ionic@4.6.0
+npm install -g cordova@8.1.2
+```
+Comprueba que has instalado las versiones correctas haciendo:
+
+```
+npm list -g -depth=0
+```
+### Strongloop y loopback
+
+Instala las siguientes herramientas para gestionar los modelos de datos, también con permiso de administrador:
+
+```
+npm install -g strongloop@6.0.3
+npm install -g loopback-cli@5.0.0
+```
 ## Procedimiento para realizar las contribuciones 
 El ciclo de contribución que hay que seguir es este:
 
