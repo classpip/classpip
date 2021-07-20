@@ -45,10 +45,10 @@ En la actualidad el ecosistema Classpip se compone de 9 aplicaciones que se mues
 [![Classpip Badge](https://img.shields.io/badge/classpip-movil--estudiante-brightgreen)](https://github.com/classpip/classpip-movil-estudiante-dev)  
 
 * *Classpip-kids*: Es la aplicación especialmente diseñada para tablets, con juegos dirigidos a alumnos de menor edad (por ejemplo, creación de cuentos, colecciones de cromos, etc.).
-[![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/classpip/classpip-server-dev)
+[![Classpip Badge](https://img.shields.io/badge/classpip-kids-brightgreen)](https://github.com/classpip/classpip-kids-dev)
  
  * *Classpip-express*: Es la aplicación que permite poner en marcha algunos juegos sin necesidad de que los participantes estén registrados como alumnos en el ecosistema Classpip. Permite realizar juegos de cuestionarios preguntas pero también realizar encuestás rápidas de satisfacción, votaciones rápidas, etc.
-[![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/classpip/classpip-server-dev)
+[![Classpip Badge](https://img.shields.io/badge/classpip-express-brightgreen)](https://github.com/classpip/classpip-express-dev)
  
 * *Classpip-API*: Es la aplicación que ofrece al resto de aplicaciones los servicios de acceso a datos en modo API-REST  (por ejemplo, obtener la lista de juegos de un grupo, o los cromos que tiene un alumno en su álbum).
 [![Classpip Badge](https://img.shields.io/badge/classpip-API-brightgreen)](https://github.com/classpip/classpip-API-dev)
@@ -57,12 +57,12 @@ En la actualidad el ecosistema Classpip se compone de 9 aplicaciones que se mues
 [![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/classpip/classpip-server-dev)
  
  * *Classpip-web*: Es la página web de difusión de Classpip. Allí puede encontrarse una descripción del ecosistema y pueden descargarse las aplicaciones instalables en los dispositivos móviles. Pueden compartirse recursos (por ejemplo, colecciones de cromos) y descargar recursos compartidos por otros. Finalmente, pueden compartirse experiencias de uso de Classpip.
-[![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/classpip/classpip-server-dev)
+[![Classpip Badge](https://img.shields.io/badge/classpip-web-brightgreen)](https://github.com/classpip/classpip-web-dev)
  
  * *Classpip-webAPI*: Es la aplicación que ofrece a Classpip-web los servicios de acceso a datos en modo API-REST (usuarios de la web, recursos compartidos, etc.).
-[![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/classpip/classpip-server-dev)
+[![Classpip Badge](https://img.shields.io/badge/classpip-webAPI-brightgreen)](https://github.com/classpip/classpip-webAPI-dev)
  
-Las aplicaciones Classpip-movil-estudiante, Classpip-movil-profesor y Classpip-kids tienen versiones instalables en dispositivos móviles, tando Android como IOs, y también versiones accesibles directamente en le web.  
+Las aplicaciones *Classpip-movil-estudiante*, *Classpip-movil-profesor* y *Classpip-kids* tienen versiones instalables en dispositivos móviles, tando Android como IOs, y también versiones accesibles directamente en le web.  
 
 Un TFG concreto típicamente implica modificaciones en los varias de las aplicaciones. Por ejemplo, se define un nuevo tipo de juego (o mejoras en los existentes), se crean los nuevos modelos de datos que se incorporan a la aplicación Classpip-API, se añaden las funcionalidades propias del profesor en el Classpip-dashboard y en Claspip-movil-profesor y se añaden las funcionalidades específicas para los alumnos en Classpip-movil-estudiante. Si además conviene hacer un registro de actividad o gestionar alguna notificación, hay que modificar también Classpip-server.
 
