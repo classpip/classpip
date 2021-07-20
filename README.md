@@ -71,15 +71,16 @@ Los enlaces que aparecen en esta página corresponden a los repositorios de las 
 Las versiones en producción de las diferentes aplicaciones del ecosistema Classpip están permanentemente en ejecición en una máquina alojada en las instalaciones del laboratorio de cálculo del Campus del Baix Llobregat. Puede accederse a estas aplicaciones en los enlaces siguientes:
 
 | Aplicación        | URL         |
-| ------------- |:--------------:|
+| ------------- |--------------|
 | Dashboard     | [classpip.upc.edu:4200](classpip.upc.edu:4200) | 
-| Movil estudiante | [classpip.upc.edu:8100] (classpip.upc.edu:8100)      |  
-| Movil profesor | [classpip.upc.edu:8102] (classpip.upc.edu:8102)      |  
+| Movil estudiante | [classpip.upc.edu:8100](classpip.upc.edu:8100)      |  
+| Movil profesor | [classpip.upc.edu:8102](classpip.upc.edu:8102)      |  
 | Express | [classpip.upc.edu:8101](classpip.upc.edu:8101)      |  
 | Kids | pendiente      |  
-| Web | [classpip.upc.edu:8120] (classpip.upc.edu:8120)    |  
+| Web | [classpip.upc.edu:8120](classpip.upc.edu:8120)    |  
  
 Las aplicaciones de servicio (APIs y Server) tambien se están ejecutando en la máquina de producción pero no son accesibles desde el exterior.  
+  
 Las versiones instalables en dispositivos móviles para las aplicaciones *Classpip-movil-estudiante*, *Classpip-movil-profesor* y *Classpip-kids* pueden encontrarse en la web de Classpip.  
 
 
