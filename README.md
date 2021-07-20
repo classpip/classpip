@@ -1,4 +1,4 @@
-# Bienvenido a Classpip
+# Bienvenido al ecosistema Classpip
 
 [![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/classpip/classpip-dashboard-dev)
 [![Classpip Badge](https://img.shields.io/badge/classpip-movil--profesor-brightgreen)](https://github.com/classpip/classpip-movil-profesor-dev)
@@ -13,7 +13,7 @@
 
 Classpip es una herramienta para introducir gamificación en el aula. La gamificación consiste en la introducción de las mecánicas típicas de los juegos en escenarios que no son juegos, para motivar a las personas a hacer cosas que quizá no tienen muchas ganas de hacer.
 
-Con Classpip, un profesor puede introducir diferentes mecánicas de juego. Por ejemplo:
+Con el ecosistema Classpip, un profesor puede introducir diferentes mecánicas de juego. Por ejemplo:
 
 * *Juegos de puntos*: el profesor asignará puntos a sus alumnos en función de sus méritos (puntualidad, buenas calificaciones, ayudar a los compañeros, etc.). Los alumnos acumulan puntos, mejoran en el ranking y obtienen privilegios según el nivel de puntuación obtenido (poder oír música durante los exámenes, llevarse a casa el fin de semana la maleta de cosas interesantes de la profesora, etc.).
    
@@ -33,7 +33,7 @@ Classpip utiliza las tecnologías más modernas para el desarrollo de aplicacion
 
 ![classpip-arch](https://github.com/classpip/classpip/blob/master/classpip.png)
 
-En la actualidad Classpip se compone de 5 aplicaciones, que se muestran en la figura, con una indicación de las tecnologías más importantes usadas en cada una de ellas. A continuación se describen esas aplicaciones y se proporcionan los enlaces a las versiones en desarrollo de cada una de ellas.
+En la actualidad el ecosistema Classpip se compone de 9 aplicaciones que se muestran en la figura, con una indicación de las tecnologías más importantes usadas en cada una de ellas. A continuación se describen esas aplicaciones y se proporcionan los enlaces a las versiones en desarrollo de cada una de ellas.
  
 * *Classpip-dashboard*: Es una aplicación web con la que, desde su ordenador, el profesor puede tomar todas las decisiones sobre configuración de los juegos (por ejemplo, crear una colección nueva) e interacción con cada juego (por ejemplo, asignar puntos a los alumnos). 
 [![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/classpip/classpip-dashboard-dev)
@@ -42,14 +42,28 @@ En la actualidad Classpip se compone de 5 aplicaciones, que se muestran en la fi
 [![Classpip Badge](https://img.shields.io/badge/classpip-movil--profesor-brightgreen)](https://github.com/classpip/classpip-movil-profesor-dev)
 
 * *Classpip-movil-estudiante*: Es la aplicación mediante la cual el alumno interacciona con el juego (por ejemplo, consulta los puntos que tiene, intercambia cromos con los compañeros o responde a las preguntas de un juego de preguntas). 
-[![Classpip Badge](https://img.shields.io/badge/classpip-movil--estudiante-brightgreen)](https://github.com/classpip/classpip-movil-estudiante-dev)
-  
+[![Classpip Badge](https://img.shields.io/badge/classpip-movil--estudiante-brightgreen)](https://github.com/classpip/classpip-movil-estudiante-dev)  
+
+* *Classpip-kids*: Es la aplicación especialmente diseñada para tablets, con juegos dirigidos a alumnos de menor edad (por ejemplo, creación de cuentos, colecciones de cromos, etc.).
+[![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/classpip/classpip-server-dev)
+ 
+ * *Classpip-express*: Es la aplicación que permite poner en marcha algunos juegos sin necesidad de que los participantes estén registrados como alumnos en el ecosistema Classpip. Permite realizar juegos de cuestionarios preguntas pero también realizar encuestás rápidas de satisfacción, votaciones rápidas, etc.
+[![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/classpip/classpip-server-dev)
+ 
 * *Classpip-API*: Es la aplicación que ofrece al resto de aplicaciones los servicios de acceso a datos en modo API-REST  (por ejemplo, obtener la lista de juegos de un grupo, o los cromos que tiene un alumno en su álbum).
 [![Classpip Badge](https://img.shields.io/badge/classpip-API-brightgreen)](https://github.com/classpip/classpip-API-dev)
  
  * *Classpip-server*: Es la aplicación que realiza tareas de notificación entre los usuarios. Por ejemplo, recibe la notificación de que un alumno ha completado un cuestionario y remite esa notificación al Dash para que refleje esa circunstancia en el listado de alumnos que participan en el juego. También realiza tareas de registro de actividad (por ejemplo, registrar la creación de grupos o de juegos).
 [![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/classpip/classpip-server-dev)
-  
+ 
+ * *Classpip-web*: Es la página web de difusión de Classpip. Allí puede encontrarse una descripción del ecosistema y pueden descargarse las aplicaciones instalables en los dispositivos móviles. Pueden compartirse recursos (por ejemplo, colecciones de cromos) y descargar recursos compartidos por otros. Finalmente, pueden compartirse experiencias de uso de Classpip.
+[![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/classpip/classpip-server-dev)
+ 
+ * *Classpip-webAPI*: Es la aplicación que ofrece a Classpip-web los servicios de acceso a datos en modo API-REST (usuarios de la web, recursos compartidos, etc.).
+[![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/classpip/classpip-server-dev)
+ 
+Las aplicaciones Classpip-movil-estudiante, Classpip-movil-profesor y Classpip-kids tienen versiones instalables en dispositivos móviles, tando Android como IOs, y también versiones accesibles directamente en le web.  
+
 Un TFG concreto típicamente implica modificaciones en los varias de las aplicaciones. Por ejemplo, se define un nuevo tipo de juego (o mejoras en los existentes), se crean los nuevos modelos de datos que se incorporan a la aplicación Classpip-API, se añaden las funcionalidades propias del profesor en el Classpip-dashboard y en Claspip-movil-profesor y se añaden las funcionalidades específicas para los alumnos en Classpip-movil-estudiante. Si además conviene hacer un registro de actividad o gestionar alguna notificación, hay que modificar también Classpip-server.
 
 ## Versiones de las aplicaciones
