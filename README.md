@@ -69,48 +69,27 @@ Un TFG concreto típicamente implica modificaciones en los varias de las aplicac
 ## Versiones de las aplicaciones
 Cada una de las aplicaciones tiene versiones en producción (perfectamente funcionales) y versiones en desarrollo. 
  
-Cada año se generan dos versiones en producción (una en fenrero y otra en septiembre) que denotaremos por A.M.0  (siendo A el año y M el mes). Por ejemplo, la versión 2021.2.0 estará lista en febrero de 2021 y se habrá construido a partir de las contribuciones de los alumnos que hayan hecho su TFG durante el curso académico 2020-2021 Q1 (se matricularon en septiembre de 2020 y acabaron el TFG en enero de 2021). La versión 2021.9.0 estará lista en septiembre de 2021 y se habrá construido a partir de las contribuciones de los alumnos que hayan hecho su TFG durante el curso académico 2020-2021 Q2 (se matricularon en febrero de 2021 y acabaron el proyecto en septiembre de ese mismo año). Es posible que durante el cuatrimestre se detecten algunos fallos de la versión en producción cuya resolución no pueda esperar a la nueva versión y tengan que ser resueltos inmediatamente. Eso dará luegar a nuevas versiones de producción que se etiquetarán con A.M.1, A.M.2 etc.
+Cada año se generan dos versiones en producción (una en febrero y otra en septiembre) que denotaremos por A.M.0  (siendo A el año y M el mes). Por ejemplo, la versión 2021.2.0 estará lista en febrero de 2021 y se habrá construido a partir de las contribuciones de los alumnos que hayan hecho su TFG durante el curso académico 2020-2021 Q1 (se matricularon en septiembre de 2020 y acabaron el TFG en enero de 2021). La versión 2021.9.0 estará lista en septiembre de 2021 y se habrá construido a partir de las contribuciones de los alumnos que hayan hecho su TFG durante el curso académico 2020-2021 Q2 (se matricularon en febrero de 2021 y acabaron el proyecto en septiembre de ese mismo año). Es posible que durante el cuatrimestre se detecten algunos fallos de la versión en producción cuya resolución no pueda esperar a la nueva versión y tengan que ser resueltos inmediatamente. Eso dará luegar a nuevas versiones de producción que se etiquetarán con A.M.1, A.M.2 etc.
  
-En todo momento, cada aplicación tiene también una versión en desarrollo. En esa versión van integrando sus contribuciones los alumnos que están trabajando en ese momento con la aplicación. Cuando acaba el cuatrimestre en curso (en enero o en septiembre), la versión de desarrollo ya contiene todas las contribuciones y pasa a convertirse en la nueva versión en producción. La versión en desarrollo sigue activa para que el grupo de alumnos del nuevo cuatrimestre vaya integrando en ella sus contribuciones. Los enlaces que aparecen en esta página corresponden a las versiones en desarrollo de cada uno de los módulos.
+En todo momento, cada aplicación tiene también una versión en desarrollo. En esa versión van integrando sus contribuciones los alumnos que están trabajando en ese momento con la aplicación. Cuando acaba el cuatrimestre en curso (en enero o en septiembre), la versión de desarrollo ya contiene todas las contribuciones y pasa a convertirse en la nueva versión en producción. La versión en desarrollo sigue activa para que el grupo de alumnos del nuevo cuatrimestre vaya integrando en ella sus contribuciones.   
 
- ## Documentos de cada versión en producción
-Cada versión en producción de cada aplicación tiene asociados los documentos siguientes:
-*	El código (con instrucciones para su instalación)
-*	El juego de pruebas que permite verificar que esa versión de módulo funciona correctamente
-*	Criterios de calidad y consignas de trabajo para el módulo
-*	Las funcionalidades implementadas en esa versión del módulo
-*	Los desarrollos en curso que darán lugar a la nueva versión en producción del módulo.
-*	Ideas para desarrollos futuros del módulo
+Los enlaces que aparecen en esta página corresponden a los repositorios de las versiones en desarrollo de cada una de las aplicaciones. En cada repositorios puede encontrarse la información necesaria para descargar el código de la aplicación correspondiente y toda la información necesaria para poder realizar contribuciones al desarrollo de esa aplicación.
 
-## Contribuyentes
-Al desarrollo de las aplicaciones de Classpip contribuyen alumnos haciendo sus TFG. En el momento de la matrícula del TFG (primeros de febrero y primeros de septiembre) ya han terminado los TFG del cuatrimestre anterior y ya se sabe en qué situación está cada una de las aplicaciones. Por tanto, en el momento de la matricula ya debe haber quedado claro qué alumnos van a contribuir durante el cuatrimestre que se inicia y qué va a hacer cada uno de ellos. En ese momento se elabora el documento de desarrollos en curso.
- 
-No obstante, los alumnos empiezan a interesarse por el proyecto con antelación (a veces incluso con meses de antelación). En el caso de alumnos de telemática, con conocimiento previo de las herramientas que se usan (será así porque han hecho la asignatura EA), se les propone como tarea preparatoria instalarse los módulos y pasarles la batería de pruebas identificando las mejoras sencillas que creen que podrían introducirse (pueden incluirse algunas de las identificadas en el documento de desarrollos futuros). Entonces se consensua una lista de mejoras sencillas que los alumnos llevan a cabo sobre la versión en desarrollo, practicando toda la mecánica de contribución a través de GitHub.
- 
+## Formas de contribución
+Al desarrollo de las aplicaciones de Classpip contribuyen alumnos haciendo sus TFG/TFM. Hay tres modalidades de trabajo: individual, en pequeño grupo o SCRUM.  
+El modalidad individual es la habitual. El alumno desarrolla el trabajo individualmente de acuerdo con los objetivos establecidos con los tutores.   En la modalidad de pequeño grupo, los alumnos se asocian en grupos de 2 o 3, realizan un trabajo en equipo organizando las tareas a su gusto, aunque presentando al final memorias individuales (que probablemente tengan una buena parte en común). La presentación oral también serán conjunta. Esta modalidad es ideal para trabajar con compañeros con los que hay un buen entendimiento.  
+En la modalidad SCRUM los alumnos se agrupan en grupos más grandes (de 4 o más), incluso aunque no hayan trabajado juntos antes (o ni siquiera se conozcan). El trabajo se desarrolla según las pautas de la metodología ágil SCRUM, avanzando por sprints. Finalmente, cada alumno presenta la memoria que describe su contribución al trabajo del grupo. La presentación final puede ser individual o en pequeños grupos de alumnos que han trabajado más estrechamente en los diferentes sprints.  
+
+## Material para empezar
 Algunos materiales tutoriales que deben facilitar el inicio del trabajo en Classpip son:
 * [Tutoriales de las herramientas de Classpip](https://www.youtube.com/playlist?list=PL64O0POFYjHqXWZgAtku2zgG-wEFxJ3xM). Se trata de una colección de vídeos describiendo los aspectos esenciales de las diferentes tecnologías usadas en Classpip (Angular, Ionic, Loopback, Git, Github, etc.). En función del tipo de proyecto que se haya previsto, se hará más énfasis en uno u otro bloque del tutorial. 
 * [Tutorial sobre cómo hacer un juego para Classpip](https://github.com/classpip/classpip/blob/master/TutorialVotacion.pdf). Muestra los pásos básicos para crear un nuevo juego (creación de los nuevos modelos de datos, creación y gestión del juego desde el Dashboard y interacción con el juego desde el movil del estudiante).
  
  Esta es la [recopilacion de todos los TFM y TFG que se han realizado hasta el momento en Classpip](https://htmlpreview.github.io/?https://github.com/classpip/classpip/blob/master/Recopilacion.htm)
 
-## Contribuciones
-Al inicio de su trabajo, cada contribuyente se hará en su GitHub personal un fork de la versión en desarrollo de las aplicaciones en las que trabajará. De acuerdo con el profesor supervisor, irá haciendo pull requests contra la versión en desarrollo. Después de cada pull request deberá pasar la batería de pruebas para asegurar el correcto funcionamiento (normalmente, el propio contribuyente habrá ampliado la batería de pruebas de la aplicación con aquellas necesarias para probar su contribución).
- 
-Al finalizar su TFG debe entregar (además de la memoria):
-*	La nueva versión de la batería de pruebas de las aplicaciones que haya tocado.
-*	Un texto descriptivo de las cosas añadidas a las aplicaciones que haya tocado (que se incorporará al documento de funcionalidades implementadas)
-*	Cosas pendientes de hacer en las aplicacions que se hayan tocado (que se incorporarán al documento de ideas para desarrollos futuros)
- 
-Estos elementos se presentarán en forma de anexos a la memoria del TFG.
+## Instalación de las herramientas necesarias
 
-CONTROL DE LA CALIDAD DEL CÓDIGO (DISCUTIR ESTO)
- 
-Una vez finalizadas e integradas todas las contribuciones de un cuatrimestre, los profesores responsables pasarán la batería de pruebas completa a la versión en desarrollo y, una vez superadas, convertirán la versión en desarrollo en nueva versión en producción. Los contribuyentes que han acabado su TFG deben comprometerse a ayudar a los profesores responsables a resolver los errores que puedan aparecer al pasar la batería de pruebas final.
-
-## Instalación y mecánica para las contribuciones
-
-La página principal de cada repositorio indica qué herramientas (y qué versión de cada herramienta) hay que tener instaladas y también se dan instrucciones para la instalación y puesta en marcha de la aplicación.
- 
+## Procedimiento para realizar las contribuciones 
 El ciclo de contribución que hay que seguir es este:
 
 1. El alumno hace en su GitHub personal un fork del repositorio que contiene la versión de desarrollo en curso.
