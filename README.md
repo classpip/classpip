@@ -66,6 +66,22 @@ Cada año se generan dos versiones en producción (una en febrero y otra en sept
 En todo momento, cada aplicación tiene también una versión en desarrollo. En esa versión van integrando sus contribuciones los alumnos que están trabajando en ese momento con la aplicación. Cuando acaba el cuatrimestre en curso (en enero o en septiembre), la versión de desarrollo ya contiene todas las contribuciones y pasa a convertirse en la nueva versión en producción. La versión en desarrollo sigue activa para que el grupo de alumnos del nuevo cuatrimestre vaya integrando en ella sus contribuciones.   
 
 Los enlaces que aparecen en esta página corresponden a los repositorios de las versiones en desarrollo de cada una de las aplicaciones. En cada repositorios puede encontrarse la información necesaria para descargar el código de la aplicación correspondiente y toda la información necesaria para poder realizar contribuciones al desarrollo de esa aplicación.
+  
+## Aplicaciones en producción
+Las versiones en producción de las diferentes aplicaciones del ecosistema Classpip están permanentemente en ejecición en una máquina alojada en las instalaciones del laboratorio de cálculo del Campus del Baix Llobregat. Puede accederse a estas aplicaciones en los enlaces siguientes:
+
+| Aplicación        | URL         |
+| ------------- |:--------------:|
+| Dashboard     | [classpip.upc.edu:4200](classpip.upc.edu:4200) | 
+| Movil estudiante | [classpip.upc.edu:8100] (classpip.upc.edu:8100)      |  
+| Movil profesor | [classpip.upc.edu:8102] (classpip.upc.edu:8102)      |  
+| Express | [classpip.upc.edu:8101](classpip.upc.edu:8101)      |  
+| Kids | pendiente      |  
+| Web | [classpip.upc.edu:8120] (classpip.upc.edu:8120)    |  
+ 
+Las aplicaciones de servicio (APIs y Server) tambien se están ejecutando en la máquina de producción pero no son accesibles desde el exterior.  
+Las versiones instalables en dispositivos móviles para las aplicaciones *Classpip-movil-estudiante*, *Classpip-movil-profesor* y *Classpip-kids* pueden encontrarse en la web de Classpip.  
+
 
 ## Formas de contribución
 Al desarrollo de las aplicaciones de Classpip contribuyen alumnos haciendo sus TFG/TFM. Hay tres modalidades de trabajo: individual, en pequeño grupo o SCRUM.
