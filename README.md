@@ -85,14 +85,14 @@ Algunos materiales tutoriales que deben facilitar el inicio del trabajo en Class
 ## Instalación de las herramientas necesarias
 Para controbuir en el desarrollo de código del ecosistema Classpip es necesario instalar las herramientas que se indican a continuación.  
 
-### NodeJS
+#### NodeJS
 Necesitas instalar NodeJS v10.13.0. Esta instalación incluye la instalación del gestor de paquetes npm.
 Para verificar que has instalado la versión correcta:
 ```
 node -v
 > v10.13.0
 ```
-## Git y GitHub
+#### Git y GitHub
 
 Necesitas instalar estas herramientas para gestión de versiones y repositorio en la nube:
  
@@ -103,24 +103,24 @@ https://github.com/
 Además tienes que crear una cuenta en GitHub (si no la tienes aún) en la que harás el fork de las aplicacines, para poder hacer contribuciones.
  
  
-### Native addons en Linux (Ubuntu)
+#### Native addons en Linux (Ubuntu)
 
 ```
 sudo apt-get install gcc g++ make
 ```
 
-### Native addons en Windows
+#### Native addons en Windows
 Deben instalarse en con permiso de administrador
 ```
 npm install -g windows-build-tools@5.1.0
 ```
 
-### Cliente angular
+#### Cliente angular
 Instalar también con permisos de administrador
 ```
 npm install -g @angular/cli@7.0.6
 ```
-### Ionic y Cordova
+#### Ionic y Cordova
 
 Necesitarás estas dos instalaciones (haz las instalaciones con permisos de administrador).
 
@@ -133,7 +133,7 @@ Comprueba que has instalado las versiones correctas haciendo:
 ```
 npm list -g -depth=0
 ```
-### Strongloop y loopback
+#### Strongloop y loopback
 
 Instala las siguientes herramientas para gestionar los modelos de datos, también con permiso de administrador:
 
