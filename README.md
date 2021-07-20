@@ -31,7 +31,7 @@ Classpip utiliza las tecnologías más modernas para el desarrollo de aplicacion
  
 ## Organización de Classpip
 
-![classpip-arch](https://github.com/classpip/classpip/issues/1#issue-948759558)
+![classpip-arch](https://user-images.githubusercontent.com/26624303/126349713-f3f05b96-3a47-4fa8-a638-8c631af24717.png)
 
 En la actualidad el ecosistema Classpip se compone de 9 aplicaciones que se muestran en la figura, con una indicación de las tecnologías más importantes usadas en cada una de ellas. A continuación se describen esas aplicaciones y se proporcionan los enlaces a las versiones en desarrollo de cada una de ellas.
  
