@@ -1,13 +1,5 @@
 # Bienvenido al ecosistema Classpip
 
-[![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/classpip/classpip-dashboard-dev)
-[![Classpip Badge](https://img.shields.io/badge/classpip-movil--profesor-brightgreen)](https://github.com/classpip/classpip-movil-profesor-dev)
-[![Classpip Badge](https://img.shields.io/badge/classpip-movil--estudiante-brightgreen)](https://github.com/classpip/classpip-movil-estudiante-dev)
-[![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/classpip/classpip-server-dev)
-[![Classpip Badge](https://img.shields.io/badge/classpip-API-brightgreen)](https://github.com/classpip/classpip-API-dev)
-[![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/classpip/classpip/blob/master/LICENSE)
-
-
 
 ## ¿Qué es Classpip?
 
@@ -76,13 +68,16 @@ En todo momento, cada aplicación tiene también una versión en desarrollo. En 
 Los enlaces que aparecen en esta página corresponden a los repositorios de las versiones en desarrollo de cada una de las aplicaciones. En cada repositorios puede encontrarse la información necesaria para descargar el código de la aplicación correspondiente y toda la información necesaria para poder realizar contribuciones al desarrollo de esa aplicación.
 
 ## Formas de contribución
-Al desarrollo de las aplicaciones de Classpip contribuyen alumnos haciendo sus TFG/TFM. Hay tres modalidades de trabajo: individual, en pequeño grupo o SCRUM.  
+Al desarrollo de las aplicaciones de Classpip contribuyen alumnos haciendo sus TFG/TFM. Hay tres modalidades de trabajo: individual, en pequeño grupo o SCRUM.
+  
 El modalidad individual es la habitual. El alumno desarrolla el trabajo individualmente de acuerdo con los objetivos establecidos con los tutores.   En la modalidad de pequeño grupo, los alumnos se asocian en grupos de 2 o 3, realizan un trabajo en equipo organizando las tareas a su gusto, aunque presentando al final memorias individuales (que probablemente tengan una buena parte en común). La presentación oral también serán conjunta. Esta modalidad es ideal para trabajar con compañeros con los que hay un buen entendimiento.  
+  
 En la modalidad SCRUM los alumnos se agrupan en grupos más grandes (de 4 o más), incluso aunque no hayan trabajado juntos antes (o ni siquiera se conozcan). El trabajo se desarrolla según las pautas de la metodología ágil SCRUM, avanzando por sprints. Finalmente, cada alumno presenta la memoria que describe su contribución al trabajo del grupo. La presentación final puede ser individual o en pequeños grupos de alumnos que han trabajado más estrechamente en los diferentes sprints.  
 
 ## Material para empezar
 Algunos materiales tutoriales que deben facilitar el inicio del trabajo en Classpip son:
-* [Tutoriales de las herramientas de Classpip](https://www.youtube.com/playlist?list=PL64O0POFYjHqXWZgAtku2zgG-wEFxJ3xM). Se trata de una colección de vídeos describiendo los aspectos esenciales de las diferentes tecnologías usadas en Classpip (Angular, Ionic, Loopback, Git, Github, etc.). En función del tipo de proyecto que se haya previsto, se hará más énfasis en uno u otro bloque del tutorial. 
+* [Tutoriales de las herramientas de Classpip](https://www.youtube.com/playlist?list=PL64O0POFYjHqXWZgAtku2zgG-wEFxJ3xM). Se trata de una colección de vídeos describiendo los aspectos esenciales de las diferentes tecnologías usadas en Classpip (Angular, Ionic, Loopback, Git, Github, etc.). En función del tipo de proyecto que se haya previsto, se hará más énfasis en uno u otro bloque del tutorial.  
+  
 * [Tutorial sobre cómo hacer un juego para Classpip](https://github.com/classpip/classpip/blob/master/TutorialVotacion.pdf). Muestra los pásos básicos para crear un nuevo juego (creación de los nuevos modelos de datos, creación y gestión del juego desde el Dashboard y interacción con el juego desde el movil del estudiante).
  
  Esta es la [recopilacion de todos los TFM y TFG que se han realizado hasta el momento en Classpip](https://htmlpreview.github.io/?https://github.com/classpip/classpip/blob/master/Recopilacion.htm)
