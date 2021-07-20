@@ -72,12 +72,12 @@ Las versiones en producción de las diferentes aplicaciones del ecosistema Class
 
 | Aplicación        | URL         |
 | ------------- |--------------|
-| Dashboard     | [classpip.upc.edu:4200](https://classpip.upc.edu:4200) | 
-| Movil estudiante | [classpip.upc.edu:8100](https://classpip.upc.edu:8100)      |  
-| Movil profesor | [classpip.upc.edu:8102](https://classpip.upc.edu:8102)      |  
-| Express | [classpip.upc.edu:8101](https://classpip.upc.edu:8101)      |  
+| Dashboard     | [classpip.upc.edu:4200](http://classpip.upc.edu:4200) | 
+| Movil estudiante | [classpip.upc.edu:8100](http://classpip.upc.edu:8100)      |  
+| Movil profesor | [classpip.upc.edu:8102](http://classpip.upc.edu:8102)      |  
+| Express | [classpip.upc.edu:8101](http://classpip.upc.edu:8101)      |  
 | Kids | pendiente      |  
-| Web | [classpip.upc.edu:8120](https://classpip.upc.edu:8120)    |  
+| Web | [classpip.upc.edu:8120](http://classpip.upc.edu:8120)    |  
  
 Las aplicaciones de servicio (APIs y Server) tambien se están ejecutando en la máquina de producción pero no son accesibles desde el exterior.  
   
