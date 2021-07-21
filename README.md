@@ -18,8 +18,8 @@ Cualquiera de estos juegos pueden jugarse de manera individual o en equipo (si e
 Aquí pueden encontrarse algunos vídeos que demuestran el funcionamiento de Classpip.  
 
   
-| [Visión general](https://www.youtube.com/watch?v=HI09jZGl8U0)     |  
-| [Juego de evaluación](http://www.youtube.com/watch?v=mrMuaXS2oko) |  
+[Visión general](https://www.youtube.com/watch?v=HI09jZGl8U0)     
+[Juego de evaluación](http://www.youtube.com/watch?v=mrMuaXS2oko) 
 
  
 Classpip es un proyecto colaborativo que se desarrolla a partir de las contribuciones de alumnos que realizan sus trabajos de final de grado o master incorporando nuevas funcionalidades.
