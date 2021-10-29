@@ -103,7 +103,7 @@ Algunos materiales tutoriales que deben facilitar el inicio del trabajo en Class
   
 * [Tutorial sobre cómo hacer un juego para Classpip](https://github.com/classpip/classpip/blob/master/TutorialVotacion.pdf). Muestra los pásos básicos para crear un nuevo juego (creación de los nuevos modelos de datos, creación y gestión del juego desde el Dashboard y interacción con el juego desde el movil del estudiante).
  
- Esta es la [recopilacion de todos los TFM y TFG que se han realizado hasta el momento en Classpip](https://htmlpreview.github.io/?https://github.com/classpip/classpip/blob/master/Recopilacion.htm)
+ Esta es la [recopilacion de todos los TFM y TFG que se han realizado hasta el momento en Classpip](https://htmlpreview.github.io/?https://github.com/classpip/classpip/blob/master/RecopilacionOctubre2021.htm)
 
 ## Instalación de las herramientas necesarias
 Para controbuir en el desarrollo de código del ecosistema Classpip es necesario instalar las herramientas que se indican a continuación.  
