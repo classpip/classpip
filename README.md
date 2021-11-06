@@ -20,9 +20,9 @@ Aquí pueden encontrarse algunos vídeos que demuestran el funcionamiento de Cla
   
 [Visión general](https://www.youtube.com/watch?v=HI09jZGl8U0)     
 [Juego de evaluación](http://www.youtube.com/watch?v=mrMuaXS2oko)    
-[Juego de cuentos](https://www.youtube.com/watch?v=E3fXdanzQHg&ab_channel=EduardGimenoMu%C3%B1oz) 
+[Juego de cuentos](https://www.youtube.com/watch?v=E3fXdanzQHg&ab_channel=EduardGimenoMu%C3%B1oz)  
+[Juego de competición tipo torneo](https://www.youtube.com/watch?v=3qnv6Hlk7vY)   
 
- 
 Classpip es un proyecto colaborativo que se desarrolla a partir de las contribuciones de alumnos que realizan sus trabajos de final de grado o master incorporando nuevas funcionalidades.
  
 Classpip utiliza las tecnologías más modernas para el desarrollo de aplicaciones web y apps para dispositivos móviles, tales como: angular, ionic, cordova, strongloop, loopback. También usa Git y GitHub para gestión de versiones y colaboración entre los alumnos participantes. 
