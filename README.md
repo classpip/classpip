@@ -22,6 +22,8 @@ Aquí pueden encontrarse algunos vídeos que demuestran el funcionamiento de Cla
 [Juego de evaluación](http://www.youtube.com/watch?v=mrMuaXS2oko)    
 [Juego de cuentos](https://www.youtube.com/watch?v=E3fXdanzQHg&ab_channel=EduardGimenoMu%C3%B1oz)  
 [Juego de competición tipo torneo](https://www.youtube.com/watch?v=3qnv6Hlk7vY)   
+[Juego de memorama](https://youtube.com/watch?v=Ojc-iLGtG6M&feature=share)
+
 
 Classpip es un proyecto colaborativo que se desarrolla a partir de las contribuciones de alumnos que realizan sus trabajos de final de grado o master incorporando nuevas funcionalidades.
  
