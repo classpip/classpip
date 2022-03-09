@@ -57,7 +57,7 @@ En la actualidad el ecosistema Classpip se compone de 9 aplicaciones que se mues
 [![Classpip Badge](https://img.shields.io/badge/classpip-server-brightgreen.svg)](https://github.com/classpip/classpip-server-dev)
  
  * *Classpip-web*: Es la página web de difusión de Classpip. Allí puede encontrarse una descripción del ecosistema y pueden descargarse las aplicaciones instalables en los dispositivos móviles. Pueden compartirse recursos (por ejemplo, colecciones de cromos) y descargar recursos compartidos por otros. Finalmente, pueden compartirse experiencias de uso de Classpip.
-[![Classpip Badge](https://img.shields.io/badge/classpip-web-brightgreen)](https://github.com/classpip/classpip-web-dev)
+[![Classpip Badge](https://img.shields.io/badge/classpip-web-brightgreen)](https://github.com/classpip/classpip-web-dev) 
  
  * *Classpip-webAPI*: Es la aplicación que ofrece a Classpip-web los servicios de acceso a datos en modo API-REST (usuarios de la web, recursos compartidos, etc.).
 [![Classpip Badge](https://img.shields.io/badge/classpip-webAPI-brightgreen)](https://github.com/classpip/classpip-webAPI-dev)
